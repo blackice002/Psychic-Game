@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+th{
+    height: 40px;
+    background-color: brown;
+}
+
+td{
+    width:50%;
+    height: 40px;
+}
+
+.mainTitle{
+    text-align: center;
+    text-transform: uppercase;
+}
