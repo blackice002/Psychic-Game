@@ -76,10 +76,14 @@ function guessMatch(character) {
 // game reset
 
 function reset() {
+    computerChoice =
+    String.fromCharCode(
+        Math.round(Math.random() * 26) + 97);
     lettersGuessed = [];
     guessesLeft = 6;
     userWins();
     userlosses();
+
 }
 
 function startGame() {
