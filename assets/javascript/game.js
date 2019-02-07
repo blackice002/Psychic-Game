@@ -15,7 +15,6 @@ var lettersGuessed = [];
 //  function for winner count
 
 
-
 function userWins() {
     document.getElementById("wins-count").innerHTML = wins;
 }
@@ -33,7 +32,7 @@ function RemainingGuess() {
 
 // function for gussed letter
 function userGuessedLetters() {
-    var displayletter = lettersGuessed.join(", ");
+    var displayletter = lettersGuessed.join(" ");
     document.getElementById("playerGuess").innerHTML = displayletter;
 }
 
@@ -90,6 +89,7 @@ function startGame() {
     RemainingGuess();
     userWins();
     userlosses();
+
 }
 
 
